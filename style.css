@@ -67,6 +67,14 @@ h2
     font-size: 1.25rem;
     color: #cfcfcf;
 }
+button:hover
+{
+    background-color: rgb(187, 127, 255);
+    transform: scale(1.008);
+}
+button:active {
+    transform: scale(0.98);
+}
 section input[type="radio"],[type="checkbox"]
 {
     accent-color: rgba(255, 255, 255, 0.151);
@@ -78,6 +86,9 @@ section input[type="text"],[type="password"],[type="date"],[type="email"]
     border: 2px solid rgba(23, 23, 127, 0.797);
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
+}
+section input:focus-visible {
+  background-color: rgb(238, 237, 236);
 }
 section select
 {
